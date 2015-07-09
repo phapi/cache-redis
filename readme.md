@@ -52,4 +52,4 @@ $cache->flush();
 Redis Cache Provider is licensed under the MIT License - see the [license.md](https://github.com/phapi/cache-redis/blob/master/license.md) file for details
 
 ## Contribute
-Contribution, bug fixes etc are [always welcome](https://github.com/phapi/cache-memcache/issues/new).
+Contribution, bug fixes etc are [always welcome](https://github.com/phapi/cache-redis/issues/new).

@@ -20,7 +20,7 @@ class Redis implements Cache
     /**
      * Cache connection
      *
-     * @var \Memcache
+     * @var Client
      */
     protected $cache;
 
