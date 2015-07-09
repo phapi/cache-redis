@@ -5,6 +5,9 @@ php:
   - 7.0
   - hhvm
 
+services:
+  - redis-server
+
 sudo: false
 before_install: composer self-update
 install: composer install --dev
