@@ -1,5 +1,9 @@
 # Redis Cache Provider
 
+[![Build status](https://img.shields.io/travis/phapi/cache-redis.svg?style=flat-square)](https://travis-ci.org/phapi/cache-redis)
+[![Code Climate](https://img.shields.io/codeclimate/github/phapi/cache-redis.svg?style=flat-square)](https://codeclimate.com/github/phapi/cache-redis)
+[![Test Coverage](https://img.shields.io/codeclimate/coverage/github/phapi/cache-redis.svg?style=flat-square)](https://codeclimate.com/github/phapi/cache-redis/coverage)
+
 This Cache Provider uses Redis as backend to store the cached items.
 
 <blockquote>Phapi has one important rule regarding cache: A working cache should **not** be a requirement for the application to work. So if Phapi is unable to connect to the cache backend it wont stop the execution. Instead the configured cache will be replaced with a dummy cache, <code>new NullCache()</code>.</blockquote>
